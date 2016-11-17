@@ -394,7 +394,7 @@ Session object that is passed to the handler functions includes the following pr
   * **clientHostname** reverse resolved hostname for *remoteAddress*
   * **openingCommand** the opening SMTP command (HELO/EHLO/LHLO)
   * **hostNameAppearsAs** hostname the client provided with HELO/EHLO call
-  * **envelope** includes denvelope data
+  * **envelope** includes envelope data
     * **mailFrom** includes an address object or is set to false
     * **rcptTo** includes an array of address objects
   * **user** includes the `user` value returned with the authentication handler
